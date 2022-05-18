@@ -1,0 +1,12 @@
+git config --global user.name "YOur Name"
+git config --global user.email "Your Email"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status 
+git remote add origin <Add your repository link here>
+<SSH Key Paste> with your email
+//Copy the path where the file is saved
+cat <The path which you have copied>
+git push origin master
